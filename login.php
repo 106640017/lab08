@@ -12,7 +12,7 @@
     <input type="password" id="password" name="password" required>
     <br>
 
-    <input type="hidden" name="token" value="abc123">
+    <input type="hidden" name="token" value="A106640017">
 
     <input type="submit" value="Login">
 
