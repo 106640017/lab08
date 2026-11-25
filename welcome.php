@@ -13,6 +13,4 @@ if (!isset($_SESSION["user"])) {
 
 <p>Welcome, <?php echo $_SESSION["user"]; ?>!</p>
 
-<p>Before footer test</p>
-
 <?php include __DIR__ . "/footer.inc"; ?>

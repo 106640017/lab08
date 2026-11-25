@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 $username = $_POST["username"];
@@ -14,7 +13,10 @@ if ($username === "Abdulrahman" && $password === "106640017") {
 
 } else {
 
-    echo 'Invalid login. <a href="login.php">Try again</a>';
-}
+    include 'header.inc';
 
+    echo '<p>Invalid login. <a href="login.php">Try again</a></p>';
+
+    include 'footer.inc';
+}
 ?>
